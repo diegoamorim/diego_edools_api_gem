@@ -26,7 +26,7 @@ To setup the gem, follow this steps:
 
 - Configure token_master for requests like create a school. `Diegoedoolsapi.configuration.token_master = "{TOKEN HERE}"`
 ```
-Example : `Diegoedoolsapi.configuration.token_master = "e1245wtyr23552353262623632:63634773474373723445"`
+Example : Diegoedoolsapi.configuration.token_master = "e1245wtyr23552353262623632:63634773474373723445"
 ```
 
 > **Note 1 :** **the token master is used only to create a new school, 
@@ -35,7 +35,7 @@ however it's mandatory to configure it.**
 - If you don't want to put the token master to create a new school, simply set the token of an existing school using the following command:  `Diegoedoolsapi.configuration.token = "{SCHOOL TOKEN HERE}"`
 
 ```
-Example: Diegoedoolsapi.configuration.token = "12345789346et9wrwyy:24567334778wejgke436
+Example: Diegoedoolsapi.configuration.token = "12345789346et9wrwyy:24567334778wejgke436"
 ```
 > **Note 2 :** **if you create a school, the token is automatically stored in your section to make other requests without having to configure it**
 
@@ -63,7 +63,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/diegomaciel72/diegoedoolsapi. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/diegoamorim/diego_edools_api_gem. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
@@ -71,4 +71,4 @@ The gem is available as open source under the terms of the [MIT License](http://
 
 ## Code of Conduct
 
-Everyone interacting in the Diegoedoolsapi project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/diegoedoolsapi/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the Diegoedoolsapi project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/diegoamorim/diego_edools_api_gem/blob/master/CODE_OF_CONDUCT.md).
